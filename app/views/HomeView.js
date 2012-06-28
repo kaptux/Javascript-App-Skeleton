@@ -8,7 +8,7 @@
  */
 
 var View = require('./supers/View');
-var template = require('templates/HomeViewTemplate');
+var template = require('./templates/HomeViewTemplate');
 
 module.exports = View.extend({
 
