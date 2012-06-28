@@ -33,14 +33,14 @@ module.exports = View.extend({
 	 * @private
 	 */
 	initialize: function() {
-		this.render = _.bind(this.render, this);
+		this.render = _.bind( this.render, this );
 	},
 
 	/*
 	 * @private
 	 */
 	render: function() {
-		this.$el.html(this.template(this.getRenderData()));
+		this.$el.html( this.template( this.getRenderData() ) );
 
 		return this;
 	},
