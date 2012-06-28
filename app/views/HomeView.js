@@ -12,9 +12,9 @@ var template = require('templates/HomeViewTemplate');
 
 module.exports = View.extend({
 
-  //--------------------------------------
-  //+ PUBLIC PROPERTIES / CONSTANTS
-  //--------------------------------------
+	//--------------------------------------
+	//+ PUBLIC PROPERTIES / CONSTANTS
+	//--------------------------------------
 
   	/*
    	 * @private
