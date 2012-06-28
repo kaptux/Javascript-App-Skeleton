@@ -2,7 +2,7 @@
 
 Main languages are JavaScript,
 [Stylus for CSS pre-processing](http://learnboost.github.com/stylus/) and
-[Handlebars for Templating](http://handlebarsjs.com/).
+[Handlebars for templating](http://handlebarsjs.com/).
 
 ## Installation
 
