@@ -7,7 +7,7 @@ Main languages are JavaScript,
 
 ## Getting started
 
-Run `brunch new <app> -s github://brunch/simple-js-skeleton` & `brunch build`.
+Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & `brunch build`.
 See more info on the [official site](http://brunch.io)
 
 ## Overview
