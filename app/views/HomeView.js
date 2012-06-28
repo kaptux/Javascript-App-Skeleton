@@ -12,33 +12,33 @@ var template = require('templates/HomeViewTemplate');
 
 module.exports = View.extend({
 
-	//--------------------------------------
-  	//+ PUBLIC PROPERTIES / CONSTANTS
-  	//--------------------------------------
+  //--------------------------------------
+  //+ PUBLIC PROPERTIES / CONSTANTS
+  //--------------------------------------
 
   	/*
    	 * @private
-   	 */
+	 */
 	id: 'home-view',
 	/*
    	 * @private
-   	 */
+   	*/
 	template: template,
 
 	//--------------------------------------
-    //+ INHERITED / OVERRIDES
-    //--------------------------------------
+  	//+ INHERITED / OVERRIDES
+  	//--------------------------------------
 
-    /*
-   	 * @private
-   	 */
+	/*
+	 * @private
+	 */
 	initialize: function() {
 		this.render = _.bind(this.render, this);
 	},
 
 	/*
-   	 * @private
-   	 */
+	 * @private
+	 */
 	render: function() {
 		this.$el.html(this.template(this.getRenderData()));
 
@@ -46,8 +46,8 @@ module.exports = View.extend({
 	},
 
 	/*
-   	 * @private
-   	 */
+	 * @private
+	 */
 	getRenderData: function() {
 		return {
 			content: "Application Content"
@@ -55,15 +55,15 @@ module.exports = View.extend({
 	}
 
 	//--------------------------------------
-  	//+ PUBLIC METHODS / GETTERS / SETTERS
-  	//--------------------------------------
+	//+ PUBLIC METHODS / GETTERS / SETTERS
+	//--------------------------------------
 
-  	//--------------------------------------
-  	//+ EVENT HANDLERS
-  	//--------------------------------------
+	//--------------------------------------
+	//+ EVENT HANDLERS
+	//--------------------------------------
 
-  	//--------------------------------------
-  	//+ PRIVATE AND PROTECTED METHODS
-  	//--------------------------------------
+	//--------------------------------------
+	//+ PRIVATE AND PROTECTED METHODS
+	//--------------------------------------
 
 });
