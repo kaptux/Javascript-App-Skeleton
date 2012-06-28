@@ -1,8 +1,8 @@
-# Javascript App Skeleton for use with [Brunch](http://brunch.io/).
+# Javascript App Skeleton for use with [Brunch](http://brunch.io/)
 
 Main languages are JavaScript,
 [Stylus for CSS pre-processing](http://learnboost.github.com/stylus/) and
-[Handlebars for templating](http://handlebarsjs.com/).
+[Handlebars for templating](http://handlebarsjs.com/).  Also included is [Backbone.Mediator](https://github.com/chalbert/Backbone-Mediator) for implementing Pub/Sub patterns.
 
 ## Installation
 
