@@ -9,8 +9,8 @@
  * 
  * @langversion JavaScript
  * 
- * @author Christopher Pappas
- * @since  Month 00, 2012
+ * @author 
+ * @since  
  */
 
 Application = {

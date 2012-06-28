@@ -86,8 +86,8 @@ window.require.define({"Application": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   Application = {
@@ -125,8 +125,8 @@ window.require.define({"Initialize": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   var application = require('Application');
@@ -148,8 +148,8 @@ window.require.define({"helpers/ViewHelper": function(exports, require, module) 
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
 
@@ -183,8 +183,8 @@ window.require.define({"initialize": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   var application = require('Application');
@@ -206,8 +206,8 @@ window.require.define({"models/Collection": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   module.exports = Backbone.Collection.extend({
@@ -242,8 +242,8 @@ window.require.define({"models/Model": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   module.exports = Backbone.Model.extend({
@@ -278,8 +278,8 @@ window.require.define({"routers/Router": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   var application = require('Application');
@@ -311,8 +311,8 @@ window.require.define({"views/HomeView": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   var View = require('./supers/View');
@@ -384,8 +384,8 @@ window.require.define({"views/supers/View": function(exports, require, module) {
    * 
    * @langversion JavaScript
    * 
-   * @author Christopher Pappas
-   * @since  Month 00, 2012
+   * @author 
+   * @since  
    */
 
   require('helpers/ViewHelper');
