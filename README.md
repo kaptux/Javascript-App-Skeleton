@@ -18,6 +18,8 @@ See more info on the [official site](http://brunch.io)
         index.html
         images/
       styles/
+      helpers/
+      utils/
       templates/
       routers/
       models/
