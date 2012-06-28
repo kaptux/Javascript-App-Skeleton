@@ -5,7 +5,7 @@ Main languages are JavaScript,
 [Stylus](http://learnboost.github.com/stylus/) and
 [Handlebars](http://handlebarsjs.com/).
 
-## Getting started
+## Installation
 
 Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & `brunch build`.
 See more info on the [official site](http://brunch.io)
