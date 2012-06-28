@@ -16,7 +16,7 @@ module.exports = Backbone.Router.extend({
   	//--------------------------------------
   	
   	routes: {
-    	'': 'home'
+      '': 'home'
   	},
 
   	//--------------------------------------
@@ -24,6 +24,6 @@ module.exports = Backbone.Router.extend({
   	//--------------------------------------
 
   	home: function() {
-    	$( 'body' ).html( application.homeView.render().el );
+      $( 'body' ).html( application.homeView.render().el );
   	}
 });
