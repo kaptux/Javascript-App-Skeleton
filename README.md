@@ -20,10 +20,11 @@ See more info on the [official site](http://brunch.io)
       styles/
       helpers/
       utils/
-      templates/
       routers/
       models/
-      views/
+      /views/
+        templates/
+
       Application.js
       initialize.js
     /test/
