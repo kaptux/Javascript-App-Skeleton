@@ -18,12 +18,12 @@ See more info on the [official site](http://brunch.io)
       /assets/
         index.html
         images/
-      /lib/
-      models/
       styles/
+      templates/
+      routers/
+      models/
       views/
-        templates/
-      application.js
+      Application.js
       initialize.js
     /test/
     /vendor/
