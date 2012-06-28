@@ -1,13 +1,12 @@
-# Brunch with js
-This is a simple js skeleton for [Brunch](http://brunch.io/).
+# Javascript App Skeleton for use with [Brunch](http://brunch.io/).
 
 Main languages are JavaScript,
-[Stylus](http://learnboost.github.com/stylus/) and
-[Handlebars](http://handlebarsjs.com/).
+[Stylus for CSS pre-processing](http://learnboost.github.com/stylus/) and
+[Handlebars for Templating](http://handlebarsjs.com/).
 
 ## Installation
 
-Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & `brunch build`.
+Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & `brunch build`.  To continually watch for changes, use `brunch watch`.
 See more info on the [official site](http://brunch.io)
 
 ## Overview
