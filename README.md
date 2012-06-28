@@ -19,6 +19,8 @@ See more info on the [official site](http://brunch.io)
         images/
       styles/
       helpers/
+      config/
+      events/
       utils/
       routers/
       models/
