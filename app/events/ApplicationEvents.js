@@ -7,13 +7,15 @@
  * @since  
  */
 
-ApplicationEvents = {
+var ApplicationEvents = (function() {
 
 	/*
    	 * @private
 	 */
-	APPLICATION_INITIALIZED: "onApplicationInitialized"
+	this.APPLICATION_INITIALIZED = "onApplicationInitialized";
 
-}
+	return this;
+	
+}).call();
 
 module.exports = ApplicationConfig;

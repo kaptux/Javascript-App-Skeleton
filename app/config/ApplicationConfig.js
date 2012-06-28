@@ -7,13 +7,15 @@
  * @since  
  */
 
-ApplicationConfig = {
+var ApplicationConfig = (function() {
 
 	/*
    	 * @private
 	 */
-	BASE_URL: "/"
+	this.BASE_URL = "/";
 
-}
+	return this;
+
+}).call()
 
 module.exports = ApplicationConfig;
