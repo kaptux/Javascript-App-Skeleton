@@ -40,7 +40,7 @@ See more info on the [official site](http://brunch.io)
         normalize.css
         helpers.css
 
-* `config.coffee` contains configuration of your app. You can set plugins /
+* `config.coffee`  contains configuration of your app. You can set plugins /
 languages that would be used here.
 * `app/assets` contains images / static files. Contents of the directory would
 be copied to `build/` without change.
