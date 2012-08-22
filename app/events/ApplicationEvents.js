@@ -12,9 +12,14 @@ var ApplicationEvents = (function() {
 	/*
    	 * @private
 	 */
-	this.APPLICATION_INITIALIZED = "onApplicationInitialized";
+	var _applicationInitialized = "onApplicationInitialized";
 
-	return this;
+	/*
+   	 * Public interface
+	 */
+	return {
+		APPLICATION_INITIALIZED: _applicationInitialized
+	}
 	
 }).call();
 

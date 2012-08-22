@@ -12,9 +12,14 @@ var ApplicationConfig = (function() {
 	/*
    	 * @private
 	 */
-	this.BASE_URL = "/";
+	var _baseUrl = "/";
 
-	return this;
+	/*
+   	 * Public interface
+	 */
+	return {
+		BASE_URL: _baseUrl
+	}
 
 }).call()
 
