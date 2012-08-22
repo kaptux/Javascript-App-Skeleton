@@ -6,7 +6,7 @@ Main languages are JavaScript,
 
 ## Installation
 
-Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & `brunch build`.  To continually watch for changes, use `brunch watch`.
+Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & then `npm install` and finall `brunch build`.  To continually watch for changes, use `brunch watch`.
 See more info on the [official site](http://brunch.io)
 
 ## Overview
