@@ -6,7 +6,7 @@ Main languages are JavaScript,
 
 ## Installation
 
-Run `brunch new <app> -s https://github.com/damassi/Javascript-App-Skeleton` & then `npm install` and finally `brunch build`.  To continually watch for changes, use `brunch watch`.
+First install Brunch: `sudo npm install -g brunch` and then run `brunch new <appname> -s https://github.com/damassi/Javascript-App-Skeleton` & then `npm install` and finally `brunch build`.  To continually watch for changes, use `brunch watch`.
 See more info on the [official site](http://brunch.io)
 
 ## Overview
