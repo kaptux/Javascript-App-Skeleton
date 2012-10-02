@@ -1,12 +1,12 @@
 {
-  "author": "Your Name",
-  "name": "package-name",
-  "description": "Package description",
+  "author": "Ramón Otero Baltar",
+  "name": "Javascript-App-Skeleton",
+  "description": "",
   "version": "0.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/kaptux/Javascript-App-Skeleton.git"
   },
   "engines": {
     "node": "~0.6.10"
